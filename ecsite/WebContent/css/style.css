@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+/*TAG LAYOUT*/
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #333;
+    background-color: white;
+
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+
+}
+/*ID LAYOUT*/
+#top{
+    width: 60%;
+    margin: 30px auto;
+    border: 1px dotted #333;
+
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background: -moz-linear-gradient(to bottom,#F89174,#FFC778 30%,#FFF);
+	background: -webkit-linear-gradient(to bottom,#F89174,#FFC778 30%,#FFF);
+	background: linear-gradient(to bottom,#F89174,#FFC778 30%,#FFF);
+
+}
+#main{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    height: 80px;
+    background: -moz-linear-gradient(to bottom,#FFF,#FFC778 30%,#F89174);
+	background: -webkit-linear-gradient(to bottom,#FFF,#FFC778 30%,#F89174);
+	background: linear-gradient(to bottom,#FFF,#FFC778 30%,#F89174);
+    clear: both;
+}
